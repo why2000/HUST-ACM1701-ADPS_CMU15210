@@ -12,7 +12,7 @@
 
 ### 2.1 分治法求解思路
 
-* parenDist与pd为主要函数，算法思路描述如下（pd函数中描述的为主要思路）
+* parenDist与pd为主要函数，算法思路描述如下（pd函数中描述的为主要思路）
 
 #### parenDist
 
@@ -26,7 +26,7 @@
 * **steps**
 
     1. divide the input paren seq into a tree.
-    2. calculate using the function `pd`.(see details in the function pd)
+    2. calculate using the function `pd`.(see details in the function pd)
     3. return first part of the result of `pd`, or NONE when it equals to SOME 0
 
 #### pd
