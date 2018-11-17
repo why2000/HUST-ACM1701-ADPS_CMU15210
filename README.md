@@ -42,7 +42,7 @@
 * @max(maximum length) : maximum length of matched paren seq so far.
 * @closed(maximum closed length) : the length of the longest `closed` paren seq.
     1. consists of one continuous matched paren seq, can not be separately matched , e.g. the @closed of "()()(())(" is 4 instead of 8
-    2. has no right paren #")" next to its right, no left paren #"(" next to its left.)
+    2. has no right paren #")" next to its right, no left paren #"(" next to its left.
 
 * @lo(left open number) : number of unclosed left paren #"(".
 * @ro(right open number) : number of unclosed right paren #")".
