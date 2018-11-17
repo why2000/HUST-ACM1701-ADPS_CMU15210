@@ -65,9 +65,9 @@ struct
       fun pd (s0) : (int option * int * int * int * int * int) =
         case showt s0
           of EMPTY => (SOME 0, 0, 0, 0, 0, 0)
-          | ELT OPAREN => (SOME 0, 0, 1, 0, 0, 1)
-          | ELT CPAREN => (SOME 0, 0, 0, 1, 1, 0)
-          | NODE (sl, sr) => 
+           | ELT OPAREN => (SOME 0, 0, 1, 0, 0, 1)
+           | ELT CPAREN => (SOME 0, 0, 0, 1, 1, 0)
+           | NODE (sl, sr) => 
             let
               val ((lmax, lclosed, llo, lro, lld, lrd), (rmax, rclosed, rlo, rro, rld, rrd)) = par (fn _ => pd sl, fn _ => pd sr)
               (* val pl = print("lclosed:"^Int.toString (getValue lmax)^","^Int.toString lclosed^"("^Int.toString(llo)^","^Int.toString(lro)^","^Int.toString(lld)^","^Int.toString(lrd)^")\n")
