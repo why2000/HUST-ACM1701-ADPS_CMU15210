@@ -81,7 +81,7 @@
 * *Task 5.2 (5%)*. What is the work and span of your brute-force solution? You should assume subseq has $\mathcal {O} (1)$ work and span.
 
 * **Answer 5.2**
-  * $\mathcal {O} (2^ {n})$.
+  * $\mathcal {O} (n^ 3)$.
 
 ### 3.2 关于分治法求解
 
