@@ -121,7 +121,7 @@
     7. $f(n) = n^ {n!}$
 
 * **Answer 6.1**
-  * **5261437**
+  * **5261473**
 
 * *Task 6.2 (15%)*. Carefully prove each of the following statements, or provide a counterexample and prove that it is in fact a counterexample. You should refer to the deﬁnition of $big-\mathcal {O}$. Remember that verbose proofs are not necessarily careful proofs.
     1. $\mathcal {O}$ is a transitive relation on functions. That is to say, for any functions $f$, $g$, $h$, if $f\in {\mathcal {O} (g)}$ and $g\in {\mathcal {O} (h)}$, then $f\in {\mathcal {O} (h)}$.
